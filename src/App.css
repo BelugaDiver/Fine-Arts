@@ -1,10 +1,54 @@
-.App {
-  text-align: center;
+.exteriorCard {
+  width: 100%;
+  height: 100%;
+  background: url(./dark-background.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  content: "Photo by <a href='https://unsplash.com/@r3dmax?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Jonatan Pie</a> on <a href='https://unsplash.com/backgrounds/colors/dark?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>";
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.interiorCard {
+  width: 100%;
+  height: 90%;
+  background-color: blanchedalmond;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+}
+
+.interiorCircle {
+  background: url(./dark-background.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
+  color: white;
+}
+
+.recepientName {
+  font-size: xx-large;
+  font-family: "Hahmlet";
+}
+
+.recepientQuestion {
+  font-size: 50pt;
+  font-family: "Andada Pro", Times, serif;
+}
+
+button.buttonYes {
+  background-color: orangered;
+  width: 170px;
+  height: 80px;
+  border-radius: 50px;
+  font-size: 20pt;
+  font-family: "BioRhyme";
+  color: aliceblue;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -22,10 +66,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
