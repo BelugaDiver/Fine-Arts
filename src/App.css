@@ -51,6 +51,32 @@ button.buttonYes {
   color: aliceblue;
 }
 
+@media only screen and (max-width: 600px) {
+  .interiorCard {
+    margin: 10px;
+    height: 97%;
+  }
+
+  .interiorCircle {
+    width: 90%;
+    height: 45%;
+  }
+
+  .recepientName {
+    font-size: large;
+  }
+
+  .recepientQuestion {
+    font-size: 35pt;
+  }
+
+  button.buttonYes {
+    width: 110px;
+    height: 60px;
+    font-size: 15pt;
+  }
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
