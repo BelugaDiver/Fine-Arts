@@ -6,7 +6,7 @@ function App() {
   return (
     <div class="exteriorCard">
       <div class="interiorCard">
-        <div class="interiorCircle">
+        <div className="interiorCircle">
           <div className="recepientName">Justyna, baby</div>
           <div className="recepientQuestion">Fine Arts?</div>
           <div>
