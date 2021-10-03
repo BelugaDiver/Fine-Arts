@@ -53,8 +53,8 @@ button.buttonYes {
 
 @media only screen and (max-width: 600px) {
   .interiorCard {
-    margin: 10px;
-    height: 97%;
+    margin: 17px;
+    height: 96%;
   }
 
   .interiorCircle {
