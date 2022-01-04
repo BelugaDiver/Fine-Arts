@@ -1,3 +1,7 @@
+# Fine Arts
+
+This project was created as a website to ask an SO to a formal event. It is a single page static web app with no routing and it showcases experience with hosting platforms like Heroku and Microsoft Azure.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
